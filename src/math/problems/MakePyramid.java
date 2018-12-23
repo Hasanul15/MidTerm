@@ -11,9 +11,18 @@ public class MakePyramid {
                            * * * *
                           * * * * *
                          * * * * * *
-
         */
+        for( int i = 0; i <50; i++){
+            for(int j = 0; j< 50-i; j++){
+                System.out.print(" ");
+            }// end of for loop
 
+            for(int k=0; k<=i; k++){
+                System.out.print(" *");
+                }
+            System.out.println();
 
+                }
+
+            }
         }
-  }

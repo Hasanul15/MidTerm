@@ -1,5 +1,7 @@
 package math.problems;
 
+import java.sql.SQLOutput;
+
 public class Pattern {
 
 	public static void main(String[] args) {
@@ -8,8 +10,7 @@ public class Pattern {
 		 *
 		 *
 		 */
-		
 
+		}
 
-	}
 }
