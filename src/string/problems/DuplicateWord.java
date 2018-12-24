@@ -15,21 +15,21 @@ public class DuplicateWord {
          * Also Find the average length of the words.
          */
 
-                String string = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
+                String str = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
 
-                String[] seperateWords = string.split(" ");
+                String[] separateWords = str.split(" ");
 
                 Map<String,Integer> Map = new HashMap<>();
 
-                for ( String word : seperateWords ) {
+                for ( String word : separateWords ) {
                     Integer count = Map.get(word);
                     if (count == null) {
                         count = 0;
                     }
                     Map.put(word, count + 1);
                 }
-                for(Map.Entry<String, Integer> stringEntry : Map.entrySet()){
-                    System.out.println("word '"+ stringEntry.getKey() + "'" + ": " + stringEntry.getValue() + " time(s)");
+                for(Map.Entry<String, Integer> strEntry : Map.entrySet()){
+                    System.out.println("word '"+ strEntry.getKey() + "'" + ": " + strEntry.getValue() + " time(s)");
                 }
             }
 
