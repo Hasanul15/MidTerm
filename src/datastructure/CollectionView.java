@@ -1,7 +1,5 @@
 package datastructure;
 
-import java.util.Collection;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,13 +19,9 @@ public static void main(String[] args) {
 
 
                         for(Map.Entry<Integer, String> st : map.entrySet()){
-                                System.out.println("Collection view " +st.getKey()+ " -------> " +st.getValue());
+                                System.out.println("Collection view " +st.getKey()+ "--> " +st.getValue());
                         }
-
-
-
                 }
-
         }
 
 

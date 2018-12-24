@@ -16,12 +16,12 @@ public class UseArrayList {
 		ArrayList<String> array = new ArrayList<>();
 
 		System.out.println("Adding values using add methods.......");
-		array.add("Ahmed");
-		array.add("Hasan");
+		array.add("Steve");
+		array.add("Jaison");
 		System.out.println(array);
 
-		array.add(1,"Foysol");
-		array.add(3,"Noyon");
+		array.add(1,"Magic");
+		array.add(3,"Jhonson");
 		array.add("*****");
 
 		System.out.println(" ");
@@ -40,13 +40,7 @@ public class UseArrayList {
 		for (String st : array
 		) {
 			System.out.println(st);
-
 		}
-
-
-
-
 	}
-
 }
 

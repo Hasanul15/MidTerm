@@ -47,7 +47,7 @@ public class UseMap {
 		System.out.println(" ");
 		System.out.println("Printout the values using for each loop.....");
 		for (Map.Entry<String, List<String>> st : list.entrySet()){
-			System.out.println(st.getKey()+ " --------> " +st.getValue());
+			System.out.println(st.getKey()+ " --> " +st.getValue());
 		}
 
 
