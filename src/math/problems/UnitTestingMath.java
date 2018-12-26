@@ -12,8 +12,6 @@ import org.testng.Assert;
                 }catch (AssertionError ar){
                     System.out.println("Unit testing failed");
                 }
-
-
             }
         }
 
